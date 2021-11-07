@@ -1,0 +1,66 @@
+{
+  "generator-angular-fullstack": {
+    "generatorVersion": "5.0.0-rc.4",
+    "endpointDirectory": "server/api/",
+    "insertRoutes": true,
+    "registerRoutesFile": "server/routes.js",
+    "routesNeedle": "// Insert routes below",
+    "routesBase": "/api/",
+    "pluralizeRoutes": true,
+    "insertSockets": true,
+    "registerSocketsFile": "server/config/websockets.js",
+    "socketsNeedle": "// Insert sockets below",
+    "insertModels": true,
+    "registerModelsFile": "server/sqldb/index.js",
+    "modelsNeedle": "// Insert models below",
+    "filters": {
+      "js": true,
+      "ts": true,
+      "flow": false,
+      "html": true,
+      "css": true,
+      "ngroute": true,
+      "bootstrap": false,
+      "uibootstrap": false,
+      "auth": true,
+      "models": true,
+      "mongooseModels": true,
+      "mongoose": true,
+      "mocha": true,
+      "jasmine": false,
+      "should": false,
+      "expect": true
+    }
+  },
+  "generator-angular-fullstack-component": {
+    "appModulePath": "client/app/app.module.ts",
+    "routeDirectory": "client/app/",
+    "directiveDirectory": "client/app/",
+    "componentDirectory": "client/app/components/",
+    "filterDirectory": "client/app/",
+    "serviceDirectory": "client/app/",
+    "basePath": "client",
+    "moduleName": "",
+    "modulePrompt": true,
+    "filters": [
+      "mocha",
+      "expect"
+    ],
+    "extensions": [
+      "ts",
+      "js",
+      "html",
+      "css"
+    ],
+    "directiveSimpleTemplates": "",
+    "directiveComplexTemplates": "",
+    "filterTemplates": "",
+    "serviceTemplates": "",
+    "factoryTemplates": "",
+    "controllerTemplates": "",
+    "componentTemplates": "",
+    "decoratorTemplates": "",
+    "providerTemplates": "",
+    "routeTemplates": ""
+  }
+}
